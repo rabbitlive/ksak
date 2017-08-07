@@ -1,4 +1,4 @@
-import install from '../install'
+let install = require('../install')
 
 test('Install root tasks by default.', () => {
   const tasks = install()
